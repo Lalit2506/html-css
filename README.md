@@ -10,4 +10,4 @@ A trial login/signup page created using HTML and CSS.
 -CSS3
 
 ## Preview
-![First Login Page](first-login-page/
+![First Login Page](first-login-page/Screenshot%202026-09-11%20202312.png)
