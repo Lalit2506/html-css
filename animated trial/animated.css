@@ -1,0 +1,349 @@
+body {
+  background-image: url('https://img.magnific.com/premium-vector/abstract-template-dark-luxury-premium-background-with-luxury-square-pattern-gold-lighting-lines_545205-385.jpg?semt=ais_hybrid&w=740&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 2.3s ease-in-out, background-color 2.3s ease-in-out;
+ margin-right: 500px;
+}
+
+.main-box:active {
+  background-color: pink;
+  transform: scale(1.05);
+}
+
+.login {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Correct unit: 4.5s */
+  animation: color 4.5s ease-in-out infinite alternate;
+}
+
+@keyframes color {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: pink;
+  }
+}
+
+/* cspell:disable-next-line */
+.loginform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .main-box {
+    flex-direction: column;
+  }
+}
+.signup-option {
+  text-align: center;
+  color: blue;
+  background-color: #f0f0f0;
+}
+.box{
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+
+.back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+}
+
+
+
+
+
+##signup-page
+
+
+body {
+  background-image: url('https://img.magnific.com/premium-vector/abstract-template-dark-luxury-premium-background-with-luxury-square-pattern-gold-lighting-lines_545205-385.jpg?semt=ais_hybrid&w=740&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 2.3s ease-in-out, background-color 2.3s ease-in-out;
+ margin-right: 500px;
+}
+
+.main-box:active {
+  background-color: pink;
+  transform: scale(1.05);
+}
+
+.signup {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Correct unit: 4.5s */
+  animation: color 4.5s ease-in-out infinite alternate;
+}
+
+@keyframes color {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: pink;
+  }
+}
+
+/* cspell:disable-next-line */
+.signupform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .main-box {
+    flex-direction: column;
+  }
+}
+.signup-option {
+  text-align: center;
+  color: blue;
+  background-color: #f0f0f0;
+}
+.box{
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+.back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+  
+}
+
+
+
+
+
+
+
+/* Front page */
+
+ 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            /* Aapka exact deep blue background code */
+            background-image: url('https://img.magnific.com/premium-vector/abstract-template-dark-luxury-premium-background-with-luxury-square-pattern-gold-lighting-lines_545205-385.jpg?semt=ais_hybrid&w=740&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* --- LOGO / TOP BRAND HEADER --- */
+        .brand-header {
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            z-index: 10;
+      
+        }
+        .brand-header span {
+            color: #ffd700; /* Signature yellow accent */
+        }
+
+        /* --- THE GREY CENTER EMBED CARD --- */
+        .portal-card {
+            width: 460px;
+            background-color: #ebeef4; /* Wahi light-grey container setup */
+            border-radius: 16px;
+            padding: 45px 35px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            z-index: 5;
+            text-align: center;
+            position: relative;
+            
+            margin-right: 500px;
+        }
+
+        /* --- INNER ACCENT HEADER PANEL --- */
+        .welcome-panel {
+            background-color: #ffd700; /* Wahi unique bright yellow look */
+            padding: 25px 20px;
+            border-radius: 8px;
+            margin-bottom: 35px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        .welcome-panel h1 {
+            font-size: 28px;
+            color: #11143a;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .welcome-panel p {
+            font-size: 13px;
+            color: #222;
+            font-weight: 400;
+        }
+
+        /* --- ACTION HUBS BUTTON INTERFACE --- */
+        .action-hub {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        /* Clean transition actions linking your secondary endpoints */
+        .portal-btn {
+            display: block;
+            width: 85%;
+            padding: 12px 0;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 8px;
+            transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        /* Primary Call-To-Action (Login Pathway) */
+        .portal-btn.login-trigger {
+            background-color: #11143a;
+            color: #ffffff;
+            border: 2px solid #11143a;
+            box-shadow: 0 5px 15px rgba(17, 20, 58, 0.2);
+        }
+
+        .portal-btn.login-trigger:hover {
+            background-color: transparent;
+            color: #11143a;
+            transform: translateY(-2px);
+        }
+
+        /* Secondary Call-To-Action (Signup Pathway) */
+        .portal-btn.signup-trigger {
+            background-color: transparent;
+            color: #11143a;
+            border: 2px solid #11143a;
+        }
+
+        .portal-btn.signup-trigger:hover {
+            background-color: #ffd700;
+            border-color: #ffd700;
+            color: #11143a;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+        }
+
+        /* System Version Footer inside Card */
+        .portal-footer {
+            margin-top: 30px;
+            font-size: 11px;
+            color: #777;
+            letter-spacing: 0.5px;
+        }
+        .love{
+          
+            font-size: 11px;
+            color: #777;
+            letter-spacing: 0.5px;
+        }
+        
+
+        @media (max-width: 600px) {
+          .brand-header {
+            top: 20px;
+            left: 20px;
+            font-size: 20px;
+          }
+
+          .portal-card {
+            width: calc(100% - 32px);
+            padding: 30px 20px;
+          }
+
+          .welcome-panel h1 {
+            font-size: 24px;
+          }
+
+          .portal-btn {
+            width: 100%;
+          }
+        }
